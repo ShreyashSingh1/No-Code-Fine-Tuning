@@ -1,3 +1,4 @@
+# Streamlit Frontend: app.py
 import streamlit as st
 import pandas as pd
 from src.pipeline.agents import LLMAgentTunner
@@ -16,6 +17,7 @@ def main():
     uploaded_file = st.file_uploader("Upload your dataset (CSV or JSON format):", type=["csv", "json"])
     file_format = st.selectbox("Select the file format of your dataset:", ["csv", "json"])
     input_column = st.text_input("Enter the column name containing text input:", "text")
+    target_column = st.text_input("Enter the column name containing target output:", "label")  # New input for target column
 
     # Display the uploaded dataset immediately after upload
     if uploaded_file:
@@ -54,7 +56,7 @@ def main():
 
         st.write("Loading dataset...")
         dataset = fine_tuner.load_data(uploaded_file, file_format)
-        dataset = fine_tuner.format_data(dataset["train"], input_column)
+        dataset = fine_tuner.format_data(dataset["train"], input_column, target_column)
         dataset = dataset.train_test_split(test_size=0.2)
 
         st.write("Starting fine-tuning...")

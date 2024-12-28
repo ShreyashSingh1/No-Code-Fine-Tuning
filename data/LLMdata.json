@@ -1,0 +1,838 @@
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+{"text": "What is AI?", "target": "AI is the simulation of human intelligence in machines."}
+{"text": "Who is Albert Einstein?", "target": "Albert Einstein was a theoretical physicist who developed the theory of relativity."}
+{"text": "What is the capital of France?", "target": "The capital of France is Paris."}
+{"text": "What is Python?", "target": "Python is a high-level programming language known for its simplicity and readability."}
+{"text": "What is the largest planet in our solar system?", "target": "The largest planet in our solar system is Jupiter."}
+{"text": "What is the speed of light?", "target": "The speed of light is approximately 299,792 kilometers per second."}
+{"text": "What is the capital of Japan?", "target": "The capital of Japan is Tokyo."}
+{"text": "Who wrote 'Romeo and Juliet'?", "target": "'Romeo and Juliet' was written by William Shakespeare."}
+{"text": "What is the boiling point of water?", "target": "The boiling point of water is 100°C at standard atmospheric pressure."}
+{"text": "What is quantum physics?", "target": "Quantum physics is the branch of physics that deals with the behavior of particles on the atomic and subatomic scale."}
+{"text": "What is the square root of 16?", "target": "The square root of 16 is 4."}
+{"text": "What is the currency of the United States?", "target": "The currency of the United States is the US dollar (USD)."}
+{"text": "What is the tallest mountain in the world?", "target": "The tallest mountain in the world is Mount Everest."}
+{"text": "What is a black hole?", "target": "A black hole is a region of space where the gravitational pull is so strong that not even light can escape."}
+{"text": "What is the smallest prime number?", "target": "The smallest prime number is 2."}
+{"text": "What is machine learning?", "target": "Machine learning is a branch of artificial intelligence that involves training models to make predictions based on data."}
+{"text": "What is the currency of Japan?", "target": "The currency of Japan is the Japanese yen (JPY)."}
+{"text": "What is the largest ocean on Earth?", "target": "The largest ocean on Earth is the Pacific Ocean."}
+{"text": "What is the formula for water?", "target": "The chemical formula for water is H2O."}
+{"text": "What is the process of photosynthesis?", "target": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing oxygen and glucose."}
+{"text": "Who invented the telephone?", "target": "The telephone was invented by Alexander Graham Bell."}
+{"text": "What is the fastest animal on Earth?", "target": "The fastest animal on Earth is the cheetah."}
+{"text": "What is a computer virus?", "target": "A computer virus is a type of malicious software program that can replicate itself and spread to other computers."}
+{"text": "What is the capital of Italy?", "target": "The capital of Italy is Rome."}
+{"text": "What is the freezing point of water?", "target": "The freezing point of water is 0°C."}
+{"text": "What is the longest river in the world?", "target": "The longest river in the world is the Nile River."}
+{"text": "Who painted the Mona Lisa?", "target": "The Mona Lisa was painted by Leonardo da Vinci."}
+{"text": "What is an algorithm?", "target": "An algorithm is a set of instructions or rules to be followed in calculations or problem-solving operations."}
+{"text": "What is a smartphone?", "target": "A smartphone is a mobile phone that includes advanced features such as internet access, a touchscreen interface, and the ability to run apps."}
+{"text": "What is the primary color of the sky?", "target": "The primary color of the sky is blue."}
+{"text": "Who developed the theory of evolution?", "target": "The theory of evolution was developed by Charles Darwin."}
+{"text": "What is the biggest animal on Earth?", "target": "The biggest animal on Earth is the blue whale."}
+{"text": "What is the primary language spoken in Brazil?", "target": "The primary language spoken in Brazil is Portuguese."}
+{"text": "What is the human body's largest organ?", "target": "The human body's largest organ is the skin."}
+{"text": "What is artificial intelligence?", "target": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn."}
+{"text": "What is the Pythagorean theorem?", "target": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."}
+{"text": "What is a solar eclipse?", "target": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light."}
+{"text": "What is the main component of air?", "target": "The main component of air is nitrogen, making up about 78% of Earth's atmosphere."}
+{"text": "What is an atom?", "target": "An atom is the smallest unit of matter, composed of protons, neutrons, and electrons."}
+{"text": "What is the Earth's core made of?", "target": "The Earth's core is made primarily of iron and nickel."}
+{"text": "What is the Eiffel Tower?", "target": "The Eiffel Tower is a famous iron lattice tower located in Paris, France."}
+{"text": "What is the longest muscle in the human body?", "target": "The longest muscle in the human body is the sartorius muscle."}
+{"text": "What is the formula for carbon dioxide?", "target": "The chemical formula for carbon dioxide is CO2."}
+{"text": "Who invented the lightbulb?", "target": "The lightbulb was invented by Thomas Edison."}
+{"text": "What is the atomic number of oxygen?", "target": "The atomic number of oxygen is 8."}
+{"text": "What is the capital of Germany?", "target": "The capital of Germany is Berlin."}
+{"text": "What is the formula for methane?", "target": "The chemical formula for methane is CH4."}
+{"text": "What is the purpose of DNA?", "target": "DNA carries genetic information and serves as a blueprint for the functioning and reproduction of living organisms."}
+{"text": "What is the primary function of the heart?", "target": "The primary function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues."}
+{"text": "What is a neuron?", "target": "A neuron is a specialized cell that transmits nerve impulses in the body."}
+{"text": "What is the function of the brain?", "target": "The brain controls and coordinates body functions, processes information, and is the center of thought, memory, and emotion."}
+{"text": "What is the capital of Australia?", "target": "The capital of Australia is Canberra."}
+{"text": "What is the longest bone in the human body?", "target": "The longest bone in the human body is the femur."}
+{"text": "What is the function of the kidneys?", "target": "The kidneys filter waste from the blood and regulate water and electrolyte balance."}
+{"text": "What is the primary source of energy for the Earth?", "target": "The primary source of energy for the Earth is the Sun."}
+{"text": "What is a renewable resource?", "target": "A renewable resource is a natural resource that can be replenished naturally over time, such as solar energy or wind."}
+{"text": "What is the shortest distance between two points?", "target": "The shortest distance between two points is a straight line."}
+{"text": "What is the significance of the Magna Carta?", "target": "The Magna Carta was a document signed in 1215 that limited the power of the English king and laid the foundation for modern democracy."}
+{"text": "What is the capital of Canada?", "target": "The capital of Canada is Ottawa."}
+{"text": "What is the main function of the liver?", "target": "The liver detoxifies chemicals, produces bile, and helps with the digestion of food."}
+{"text": "What is the purpose of the digestive system?", "target": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."}
+{"text": "What is the process of digestion?", "target": "Digestion is the breakdown of food into smaller components that can be absorbed into the bloodstream."}
+{"text": "What is the highest recorded temperature on Earth?", "target": "The highest recorded temperature on Earth is 56.7°C (134°F), measured in Furnace Creek Ranch, California, USA."}
+{"text": "What is the capital of Spain?", "target": "The capital of Spain is Madrid."}
+{"text": "What is the speed of sound?", "target": "The speed of sound is approximately 343 meters per second in air at 20°C."}
+{"text": "What is the largest desert in the world?", "target": "The largest desert in the world is the Antarctic Desert."}
+{"text": "What is the deepest part of the ocean?", "target": "The deepest part of the ocean is the Mariana Trench, with a depth of about 36,000 feet."}
+{"text": "What is the formula for oxygen?", "target": "The chemical formula for oxygen is O2."}
+{"text": "What is the function of red blood cells?", "target": "Red blood cells carry oxygen from the lungs to the body and return carbon dioxide back to the lungs."}
+{"text": "What is the primary use of plastic?", "target": "Plastic is commonly used for packaging, containers, and various consumer goods."}
+{"text": "What is a computer algorithm?", "target": "A computer algorithm is a set of instructions that a computer follows to perform a task."}
+{"text": "What is the currency of the UK?", "target": "The currency of the United Kingdom is the British pound (GBP)."}
+{"text": "What is the longest human organ?", "target": "The longest human organ is the skin."}
+{"text": "What is the primary function of the immune system?", "target": "The immune system defends the body against harmful pathogens and diseases."}
+{"text": "What is the capital of Russia?", "target": "The capital of Russia is Moscow."}
+{"text": "What is a computer network?", "target": "A computer network is a system of interconnected computers that can share resources and data."}
+
+
