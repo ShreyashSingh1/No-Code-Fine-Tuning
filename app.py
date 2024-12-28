@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import shutil
 import zipfile
 import tempfile
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, TrainingArguments, Trainer
@@ -18,7 +17,7 @@ def load_model_and_tokenizer(model_id):
 # Function to load data
 def load_data(file, file_format="csv"):
     with tempfile.NamedTemporaryFile(delete=False, mode="wb") as tmp_file:
-        tmp_file.write(file.getvalue())  # Save the uploaded file content to a temporary file
+        tmp_file.write(file.getvalue())  
         tmp_file_path = tmp_file.name
     
     if file_format == "csv":
@@ -54,19 +53,22 @@ def fine_tune(model, tokenizer, dataset, param_grid, output_dir):
             logging_steps=10,
             save_total_limit=1
         )
+        
+        # Remove `processing_class` and directly handle tokenization within the dataset
         trainer = Trainer(
             model=model,
             args=training_args,
             train_dataset=dataset["train"],
             eval_dataset=dataset["train"].select(range(100)),  # Use a small test set
-            tokenizer=tokenizer
         )
         trainer.train()
         eval_results = trainer.evaluate()
+        
         if eval_results["eval_loss"] < best_loss:
             best_loss = eval_results["eval_loss"]
             best_params = params
             best_model_dir = os.path.join(output_dir, f"run_{idx}")
+    
     return best_params, best_loss, best_model_dir
 
 # Function to compress and create a zip file
@@ -151,11 +153,24 @@ def main():
             "batch_size": [int(x) for x in batch_sizes.split(",")],
             "epochs": [int(x) for x in epochs.split(",")]
         }
+
+        # Display parameters nicely
+        with st.expander("Hyperparameters for Fine-Tuning"):
+            param_df = pd.DataFrame(param_grid)
+            st.dataframe(param_df)
+
         best_params, best_loss, best_model_dir = fine_tune(model, tokenizer, dataset, param_grid, output_dir)
+
         st.success(f"Fine-tuning completed! Best parameters: {best_params} with loss: {best_loss}")
 
         # Compress and provide download link
         st.write("Preparing model for download...")
+
+        # Show results with better styling
+        with st.expander("Fine-Tuning Results"):
+            st.markdown(f"### Best Parameters:\n- **Learning Rate**: {best_params['learning_rate']}\n- **Batch Size**: {best_params['batch_size']}\n- **Epochs**: {best_params['epochs']}")
+            st.markdown(f"### Best Loss: **{best_loss}**")
+
         zip_path = create_zip_from_dir(best_model_dir)
         with open(zip_path, "rb") as file:
             st.download_button(
