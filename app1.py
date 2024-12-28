@@ -17,26 +17,18 @@ def main():
     uploaded_file = st.file_uploader("Upload your dataset (CSV or JSON format):", type=["csv", "json"])
     file_format = st.selectbox("Select the file format of your dataset:", ["csv", "json"])
     input_column = st.text_input("Enter the column name containing text input:", "text")
-    target_column = st.text_input("Enter the column name containing target output:", "label")  # New input for target column
+    target_column = st.text_input("Enter the column name containing target output:", "target")  # New input for target column
 
     # Display the uploaded dataset immediately after upload
     if uploaded_file:
+        # Display the uploaded dataset immediately
         if file_format == "csv":
-            # Use error_bad_lines=False or on_bad_lines='skip' to skip problematic rows
-            df = pd.read_csv(uploaded_file, on_bad_lines='skip')
+            df = pd.read_csv(uploaded_file)
         elif file_format == "json":
-            # Read the raw content of the file
-            json_data = uploaded_file.getvalue().decode("utf-8")  # Decode bytes to string
-            try:
-                # Attempt to load multiple JSON objects
-                data = []
-                for line in json_data.splitlines():
-                    data.append(json.loads(line))  # Load each line as a separate JSON object
-                df = pd.DataFrame(data)  # Convert to DataFrame
-                st.write("### Dataset Preview:")
-                st.dataframe(df.head())
-            except json.JSONDecodeError as e:
-                st.error(f"Error decoding JSON: {e}")
+            df = pd.read_json(uploaded_file)
+    
+        st.write("### Dataset Preview:")
+        st.dataframe(df.head())
 
     # Step 3: Parameter Grid for fine-tuning
     st.header("Step 3: Define Hyperparameters")
