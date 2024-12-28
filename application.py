@@ -81,7 +81,6 @@ def main():
 
         st.success(f"Fine-tuning completed! Best parameters: {best_params} with loss: {best_loss}")
 
-        st.write("Preparing model for download...")
 
         with st.expander("Fine-Tuning Results"):
             st.markdown(f"### Best Parameters:\n- **Learning Rate**: {best_params['learning_rate']}\n- **Batch Size**: {best_params['batch_size']}\n- **Epochs**: {best_params['epochs']}")
@@ -95,6 +94,8 @@ def main():
             st.markdown("3. **Training Loop**: The model is trained using the specified hyperparameters (learning rate, batch size, and epochs).")
             st.markdown("4. **Validation**: The model is evaluated on the validation set to monitor performance and minimize loss.")
             st.markdown("5. **Checkpointing**: The best model weights are saved based on validation performance.")
+        
+        st.write("Preparing model for download...")
 
         zip_path = fine_tuner.create_zip_from_dir(best_model_dir)
         with open(zip_path, "rb") as file:
