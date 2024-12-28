@@ -1,130 +1,30 @@
 import streamlit as st
-import os
-import zipfile
-import tempfile
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, TrainingArguments, Trainer
-from datasets import load_dataset
-from sklearn.model_selection import ParameterGrid
 import pandas as pd
-import json
+from src.pipeline.agents import ClassificationAgentTunner
 
-# Function to load model and tokenizer
-def load_model_and_tokenizer(model_id):
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForSequenceClassification.from_pretrained(model_id, num_labels=2)
-    return model, tokenizer
-
-# Function to load data
-def load_data(file, file_format="csv"):
-    with tempfile.NamedTemporaryFile(delete=False, mode="wb") as tmp_file:
-        tmp_file.write(file.getvalue())  
-        tmp_file_path = tmp_file.name
-    
-    if file_format == "csv":
-        dataset = load_dataset("csv", data_files={"train": tmp_file_path})
-    elif file_format == "json":
-        dataset = load_dataset("json", data_files={"train": tmp_file_path})
-    else:
-        raise ValueError("Unsupported file format. Use 'csv' or 'json'.")
-    
-    return dataset
-
-# Function to format data
-def format_data(dataset, tokenizer, input_column):
-    def preprocess_function(examples):
-        return tokenizer(examples[input_column], truncation=True, padding="max_length", max_length=128)
-    dataset = dataset.map(preprocess_function, batched=True)
-    return dataset
-
-# Function to perform fine-tuning
-def fine_tune(model, tokenizer, dataset, param_grid, output_dir):
-    best_loss = float("inf")
-    best_params = None
-    grid = list(ParameterGrid(param_grid))
-    for idx, params in enumerate(grid):
-        training_args = TrainingArguments(
-            output_dir=os.path.join(output_dir, f"run_{idx}"),
-            evaluation_strategy="epoch",
-            save_strategy="epoch",
-            learning_rate=params["learning_rate"],
-            per_device_train_batch_size=params["batch_size"],
-            num_train_epochs=params["epochs"],
-            logging_dir="./logs",
-            logging_steps=10,
-            save_total_limit=1
-        )
-        
-        # Remove `processing_class` and directly handle tokenization within the dataset
-        trainer = Trainer(
-            model=model,
-            args=training_args,
-            train_dataset=dataset["train"],
-            eval_dataset=dataset["train"].select(range(100)),  # Use a small test set
-        )
-        trainer.train()
-        eval_results = trainer.evaluate()
-        
-        if eval_results["eval_loss"] < best_loss:
-            best_loss = eval_results["eval_loss"]
-            best_params = params
-            best_model_dir = os.path.join(output_dir, f"run_{idx}")
-    
-    return best_params, best_loss, best_model_dir
-
-# Function to compress and create a zip file
-def create_zip_from_dir(output_dir, zip_name="fine_tuned_model.zip"):
-    zip_path = os.path.join(output_dir, zip_name)
-    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for root, _, files in os.walk(output_dir):
-            for file in files:
-                file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, output_dir)
-                zipf.write(file_path, arcname)
-    return zip_path
-
-# Streamlit UI
 def main():
     st.title("Agentic AI Fine-Tuning Tool")
     st.write("Fine-tune Hugging Face models in 4 simple steps!")
 
     # Step 1: Model ID input
     st.header("Step 1: Provide Hugging Face Model ID")
-    model_id = st.text_input("Enter the Hugging Face model ID (e.g., bert-base-uncased):", "bert-base-uncased")
+    model_id = st.text_input("Enter the Hugging Face model ID (e.g., albert-base-v2):", "albert-base-v2")
 
     # Step 2: Upload dataset and handle it directly here
     st.header("Step 2: Upload Your Dataset")
     uploaded_file = st.file_uploader("Upload your dataset (CSV or JSON format):", type=["csv", "json"])
     file_format = st.selectbox("Select the file format of your dataset:", ["csv", "json"])
     input_column = st.text_input("Enter the column name containing text input:", "text")
-
-    # Check if the user uploaded a file
-    if uploaded_file is not None:
-        # Handle CSV file upload
+    
+    if uploaded_file:
+        # Display the uploaded dataset immediately
         if file_format == "csv":
-            # Load the dataset into pandas DataFrame
             df = pd.read_csv(uploaded_file)
-            st.write("CSV File Data:")
-            st.dataframe(df)
-            if input_column in df.columns:
-                st.write(f"Displaying text data from the '{input_column}' column:")
-                st.write(df[input_column].head())
-            else:
-                st.error(f"Column '{input_column}' not found in the dataset.")
-        
-        # Handle JSON file upload
         elif file_format == "json":
-            try:
-                json_data = json.loads(uploaded_file.getvalue())
-                st.write("JSON File Data:")
-                st.json(json_data)
-                # Check if input_column exists in the first JSON object
-                if isinstance(json_data, list) and len(json_data) > 0 and input_column in json_data[0]:
-                    st.write(f"Displaying text data from the '{input_column}' field:")
-                    st.write([item[input_column] for item in json_data[:5]])  # Show first 5 entries
-                else:
-                    st.error(f"Field '{input_column}' not found in the JSON data.")
-            except json.JSONDecodeError:
-                st.error("Failed to decode JSON content.")
+            df = pd.read_json(uploaded_file)
+    
+        st.write("### Dataset Preview:")
+        st.dataframe(df.head())
 
     # Step 3: Parameter Grid for fine-tuning
     st.header("Step 3: Define Hyperparameters")
@@ -137,14 +37,14 @@ def main():
     output_dir = st.text_input("Enter the output directory to save results:", "./results")
     start_button = st.button("Start Fine-Tuning")
 
-    # When Start Button is clicked
+
     if start_button and uploaded_file:
-        st.write("Loading model and tokenizer...")
-        model, tokenizer = load_model_and_tokenizer(model_id)
+        st.write("Initializing FineTuner...")
+        fine_tuner = ClassificationAgentTunner(model_id, output_dir)
 
         st.write("Loading dataset...")
-        dataset = load_data(uploaded_file, file_format)
-        dataset = format_data(dataset["train"], tokenizer, input_column)
+        dataset = fine_tuner.load_data(uploaded_file, file_format)
+        dataset = fine_tuner.format_data(dataset["train"], input_column)
         dataset = dataset.train_test_split(test_size=0.2)
 
         st.write("Starting fine-tuning...")
@@ -159,7 +59,7 @@ def main():
             param_df = pd.DataFrame(param_grid)
             st.dataframe(param_df)
 
-        best_params, best_loss, best_model_dir = fine_tune(model, tokenizer, dataset, param_grid, output_dir)
+        best_params, best_loss, best_model_dir = fine_tuner.fine_tune(dataset, param_grid)
 
         st.success(f"Fine-tuning completed! Best parameters: {best_params} with loss: {best_loss}")
 
@@ -171,7 +71,7 @@ def main():
             st.markdown(f"### Best Parameters:\n- **Learning Rate**: {best_params['learning_rate']}\n- **Batch Size**: {best_params['batch_size']}\n- **Epochs**: {best_params['epochs']}")
             st.markdown(f"### Best Loss: **{best_loss}**")
 
-        zip_path = create_zip_from_dir(best_model_dir)
+        zip_path = fine_tuner.create_zip_from_dir(best_model_dir)
         with open(zip_path, "rb") as file:
             st.download_button(
                 label="Download Fine-Tuned Model",
