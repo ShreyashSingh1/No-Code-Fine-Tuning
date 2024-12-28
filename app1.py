@@ -1,27 +1,21 @@
-# Streamlit Frontend: app.py
 import streamlit as st
 import pandas as pd
 from src.pipeline.agents import LLMAgentTunner
-import json
 
 def main():
     st.title("LLM Fine-Tuning Tool")
     st.write("Fine-tune Hugging Face models in 4 simple steps!")
 
-    # Step 1: Model ID input
     st.header("Step 1: Provide Hugging Face Model ID")
     model_id = st.text_input("Enter the Hugging Face model ID (e.g., gpt2):", "gpt2")
 
-    # Step 2: Upload dataset and handle it directly here
     st.header("Step 2: Upload Your Dataset")
     uploaded_file = st.file_uploader("Upload your dataset (CSV or JSON format):", type=["csv", "json"])
     file_format = st.selectbox("Select the file format of your dataset:", ["csv", "json"])
     input_column = st.text_input("Enter the column name containing text input:", "text")
     target_column = st.text_input("Enter the column name containing target output:", "target")  # New input for target column
 
-    # Display the uploaded dataset immediately after upload
     if uploaded_file:
-        # Display the uploaded dataset immediately
         if file_format == "csv":
             df = pd.read_csv(uploaded_file)
         elif file_format == "json":
@@ -30,18 +24,15 @@ def main():
         st.write("### Dataset Preview:")
         st.dataframe(df.head())
 
-    # Step 3: Parameter Grid for fine-tuning
     st.header("Step 3: Define Hyperparameters")
     learning_rates = st.text_input("Learning rates (comma-separated):", "5e-5,3e-5")
     batch_sizes = st.text_input("Batch sizes (comma-separated):", "16,32")
     epochs = st.text_input("Epochs (comma-separated):", "2,3")
 
-    # Step 4: Start Fine-Tuning
     st.header("Step 4: Start Fine-Tuning")
     output_dir = st.text_input("Enter the output directory to save results:", "./results")
     start_button = st.button("Start Fine-Tuning")
 
-    # When Start Button is clicked
     if start_button and uploaded_file:
         st.write("Initializing FineTuner...")
         fine_tuner = LLMAgentTunner(model_id, output_dir)
@@ -58,7 +49,6 @@ def main():
             "epochs": [int(x) for x in epochs.split(",")]
         }
 
-        # Display parameters nicely
         with st.expander("Hyperparameters for Fine-Tuning"):
             param_df = pd.DataFrame(param_grid)
             st.dataframe(param_df)
@@ -67,10 +57,8 @@ def main():
 
         st.success(f"Fine-tuning completed! Best parameters: {best_params} with loss: {best_loss}")
 
-        # Compress and provide download link
         st.write("Preparing model for download...")
 
-        # Show results with better styling
         with st.expander("Fine-Tuning Results"):
             st.markdown(f"### Best Parameters:\n- **Learning Rate**: {best_params['learning_rate']}\n- **Batch Size**: {best_params['batch_size']}\n- **Epochs**: {best_params['epochs']}")
             st.markdown(f"### Best Loss: **{best_loss}**")
